@@ -67,7 +67,7 @@ pnpm tauri dev
 在项目根目录运行（会生成私钥文件与对应公钥）：
 
 ```bash
-pnpm tauri signer generate -- -w ./.tauri/updater.key
+pnpm tauri signer generate -w ./.tauri/updater.key
 ```
 
 生成后你会得到：
